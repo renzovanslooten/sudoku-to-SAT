@@ -1,12 +1,10 @@
-CSC 320 Project 2015
+Assignment
 SAT-Based Sudoku Solving
-Ethan Wipond V00773575
-
-Second and third extended tasks were not attempted. 
+Ethan Wipond
 
 Contents:
 README.txt --- this file
-sudoku-to-cnf.py --- translates sudoku to cnf 
+sudoku-to-cnf.py --- translates sudoku to cnf format
 sudoku-to-cnf-alt.py --- alternate encoding (extended task)
 cnf-to-sudoku.py --- translates sat solution to sudoku
 in.txt --- sample input for sudoku-to-cnf.py
@@ -29,7 +27,7 @@ python cnf-to-sudoku.py -i <sat-outputfile> -o <sudoku-outputfile>
 The formatted, solved puzzle is found in <sudoku-outputfile>.
 
 sudoku-to-cnf-alt is the same as sudoku-to-cnf, but includes the 
-alternate, extended encoding given in 'Sudoku as a SAT Problem'. It's 
+alternate, extended encoding given in the paper 'Sudoku as a SAT Problem'. It's 
 usage is the same as sudoku-to-cnf.  
 
 
